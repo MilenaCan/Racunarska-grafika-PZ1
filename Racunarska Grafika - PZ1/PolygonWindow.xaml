@@ -1,0 +1,20 @@
+﻿<Window x:Class="Racunarska_Grafika___PZ1.PolygonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Racunarska_Grafika___PZ1"
+        mc:Ignorable="d"
+        Title="PolygonWindow" Height="450" Width="800">
+    <Grid  Background="Bisque">
+        <Label x:Name="label_cThickness"  Content="Contour Thickness: " HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Height="31" Width="121"/>
+        <TextBox x:Name="tb_cThickness" HorizontalAlignment="Left" Height="38" Margin="179,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117"/>
+        <Button x:Name="button_PolygonColor" Background="LightPink" Content="Select Polygon color" HorizontalAlignment="Left" Margin="54,170,0,0" VerticalAlignment="Top" Width="147" Height="43" Click="button_PolygonColor_Click" />
+        <Label x:Name="label_AddText" Content="Add Text :" HorizontalAlignment="Left" Margin="616,59,0,0" VerticalAlignment="Top" Width="104" Height="33"/>
+        <TextBox x:Name="tb_AddText" HorizontalAlignment="Left" Height="36" Margin="563,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178"/>
+        <Button x:Name="button_TextColor" Background="LightPink" Content="Select Text color" HorizontalAlignment="Left" Margin="563,186,0,0" VerticalAlignment="Top" Width="178" Height="43" Click="button_TextColor_Click" />
+        <Button x:Name="button_DrawPolygon" Background="LightPink" Content="Draw Polygon" HorizontalAlignment="Left" Margin="563,314,0,0" VerticalAlignment="Top" Width="178" Height="69" Click="button_DrawPolygon_Click" />
+        <TextBox HorizontalAlignment="Left" Name="tb_transparency" Margin="54,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Height="28"/>
+        <Label Content="Enter transparency (in %) :" HorizontalAlignment="Left" Margin="54,278,0,109" VerticalAlignment="Center" Height="32" Width="153"/>
+    </Grid>
+</Window>

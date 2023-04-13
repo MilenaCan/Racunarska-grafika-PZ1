@@ -1,0 +1,16 @@
+﻿<Window x:Class="Racunarska_Grafika___PZ1.TextWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Racunarska_Grafika___PZ1"
+        mc:Ignorable="d"
+        Title="TextWindow" Height="450" Width="800">
+    <Grid  Background="Bisque">
+        <Label x:Name="label_AddText" Content="Add Text" HorizontalAlignment="Left" Margin="343,10,0,0" VerticalAlignment="Top" Width="85" Height="33"/>
+        <TextBox x:Name="tb_AddText" HorizontalAlignment="Left" Height="125" Margin="224,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="334"/>
+        <Button x:Name="buttonText_TextColor" Background="LightPink" Content="Select Text Color" HorizontalAlignment="Left" Margin="224,246,0,0" VerticalAlignment="Top" Width="119" Height="33" Click="buttonText_TextColor_Click" />
+        <Button x:Name="buton_TextFont" Background="LightPink" Content="Select Text Font" HorizontalAlignment="Left" Margin="439,246,0,0" VerticalAlignment="Top" Width="119" Height="33" Click="buton_TextFont_Click"  />
+        <Button x:Name="button_AddText" Background="LightPink" Content="Add Text" HorizontalAlignment="Left" Margin="343,328,0,0" VerticalAlignment="Top" Width="117" Height="44" Click="button_AddText_Click" />
+    </Grid>
+</Window>

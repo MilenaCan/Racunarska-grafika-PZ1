@@ -1,0 +1,25 @@
+﻿<Window x:Class="Racunarska_Grafika___PZ1.EllipseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Racunarska_Grafika___PZ1"
+        mc:Ignorable="d"
+        Title="EllipseWindow" Height="450" Width="800">
+    <Grid Background="Bisque">
+        <Label Content="RadiusX :" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Height="23" Width="60"/>
+        <Label Content="RadiusY :" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Height="23" Width="60"/>
+        <TextBox x:Name="radiusX" HorizontalAlignment="Left" Height="23" Margin="139,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="radiusY" HorizontalAlignment="Left" Height="23" Margin="139,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Contour Thickness :" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="109" Height="28"/>
+        <TextBox x:Name="Thicness" HorizontalAlignment="Left" Height="22" Margin="139,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105"/>
+        <Label x:Name="label_AddText" Content="Add Text :" HorizontalAlignment="Left" Margin="629,42,0,0" VerticalAlignment="Top" Width="104" Height="33" RenderTransformOrigin="0.784,2.894"/>
+        <TextBox x:Name="tb_AddText" HorizontalAlignment="Left" Height="36" Margin="614,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <Button x:Name="button_EllipseColor" Background="LightPink" Content="Select Ellipse color" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="129" Height="36" RenderTransformOrigin="0.306,-0.653" Click="button_EllipseColor_Click" />
+        <Button x:Name="button_TextColor" Background="LightPink" Content="Select Text color" HorizontalAlignment="Left" Margin="614,189,0,0" VerticalAlignment="Top" Width="138" Height="33" Click="button_TextColor_Click" />
+        <Button x:Name="button_DrawEllipse" Background="LightPink" Content="Draw Ellipse" HorizontalAlignment="Left" Margin="614,344,0,0" VerticalAlignment="Top" Width="138" Height="65" Click="button_DrawEllipse_Click" />
+        <TextBox x:Name="tb_transparency" HorizontalAlignment="Left" Height="23" Margin="206,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Enter transparency (in %) :" HorizontalAlignment="Left" Margin="28,306,0,0" VerticalAlignment="Top" Width="158"/>
+
+    </Grid>
+</Window>
